@@ -72,22 +72,6 @@ section {
   font-weight: 600;
 }
 
-input, textarea {
-  width: 100%;
-  margin: 10px 0;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-button {
-  background: #003366;
-  color: white;
-  border: none;
-  padding: 12px 25px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
 .responsive-img {
   max-width: 100%;
   border-radius: 8px;
