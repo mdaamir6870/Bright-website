@@ -4,69 +4,108 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bright Industrial Consultancy Service</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Bright Industrial</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#industries">Industries</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
   <!-- Hero Section -->
-  <div class="hero">
-    <div class="hero-overlay">
-      <h1>Bright Industrial Consultancy Service</h1>
-      <p>Ensure Safety. Ensure Compliance. Ensure Reliability.</p>
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Ensure Safety. Ensure Compliance. Ensure Reliability.</h2>
       <p>Certified NDT, Third-Party Inspection & Manpower Services Across India</p>
       <div class="cta-buttons">
-        <a href="#contact" class="expert-btn">Talk to Our Expert</a>
-        <a href="https://wa.me/917338074810" class="whatsapp-btn" target="_blank">Chat on WhatsApp</a>
+        <a href="#contact" class="btn orange">Talk to Our Expert</a>
+        <a href="https://wa.me/917338074810" class="btn green" target="_blank">Chat on WhatsApp</a>
       </div>
     </div>
-  </div>
-
-  <!-- About Section -->
-  <section>
-    <h2>About Us</h2>
-    <p>Bright Industrial Consultancy Service is a dynamic engineering consultancy specializing in Non-Destructive Testing (NDT) and industrial inspection services. Our team of certified experts delivers comprehensive asset integrity solutions that prioritize safety, quality and efficiency.</p>
   </section>
 
-  <!-- Services Section -->
-  <section>
-    <h2>Our Services</h2>
-    <img src="services.jpg" alt="Our Services" class="responsive-img">
+  <!-- Services -->
+  <section class="section" id="services">
+    <h2>Our Core Services</h2>
     <div class="grid">
       <div><h3>Third-Party Inspection</h3><p>Certified manpower for QA/QC & shutdowns.</p></div>
-      <div><h3>Ultrasonic Testing (UT)</h3><p>High-frequency waves to detect flaws.</p></div>
-      <div><h3>Radiographic Testing (RT)</h3><p>Uses X-rays or gamma rays to detect defects.</p></div>
-      <div><h3>Magnetic Particle Inspection (MPI)</h3><p>Detects surface/subsurface cracks.</p></div>
-      <div><h3>Dye Penetrant Inspection (DPI)</h3><p>Highlights visible surface flaws.</p></div>
-      <div><h3>PAUT & TOFD</h3><p>Advanced imaging for detailed defect mapping.</p></div>
-      <div><h3>EMAT</h3><p>Contactless UT for rough/hot surfaces.</p></div>
+      <div><h3>Ultrasonic Testing (UT)</h3><p>High-frequency sound waves to detect flaws.</p></div>
+      <div><h3>Radiographic Testing (RT)</h3><p>Uses X-rays/gamma rays to detect defects.</p></div>
+      <div><h3>Dye Penetrant & MPI</h3><p>Surface & subsurface discontinuity detection.</p></div>
       <div><h3>Heat Treatment</h3><p>PWHT and stress relief solutions.</p></div>
-      <div><h3>Consultancy</h3><p>FFS, RLA & inspection planning.</p></div>
+      <div><h3>Consultancy</h3><p>RLA, FFS and inspection planning support.</p></div>
     </div>
   </section>
 
-  <!-- Industries Section -->
-  <section>
-    <h2>Industries Served</h2>
-    <img src="industries.jpg" alt="Industries Served" class="responsive-img" />
+  <!-- Industries Served -->
+  <section class="section" id="industries">
+    <h2>Industries We Serve</h2>
     <div class="industry-grid">
-      <div>Oil & Gas</div><div>Power Generation</div><div>Petrochemicals</div><div>Manufacturing</div>
-      <div>Fertilizers</div><div>Pharmaceuticals</div><div>Pipelines</div><div>Storage Terminals</div>
+      <div>Oil & Gas</div>
+      <div>Power Generation</div>
+      <div>Petrochemicals</div>
+      <div>Manufacturing</div>
+      <div>Fertilizers</div>
+      <div>Pharmaceuticals</div>
+      <div>Pipelines</div>
+      <div>Storage Terminals</div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
+  <!-- Pricing Plans -->
+  <section class="section" id="pricing">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-grid">
+      <div class="price-card"><h3>Basic</h3><p>₹9,500</p></div>
+      <div class="price-card active"><h3>Standard</h3><p>₹15,500</p></div>
+      <div class="price-card"><h3>Advanced</h3><p>₹25,000</p></div>
+      <div class="price-card"><h3>Enterprise</h3><p>₹29,000</p></div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section" id="gallery">
+    <h2>Project Gallery</h2>
+    <div class="gallery-grid">
+      <img src="gallery1.jpg" alt="Pipeline Inspection">
+      <img src="gallery2.jpg" alt="Ultrasonic Testing">
+      <img src="gallery3.jpg" alt="Radiographic Testing">
+      <img src="gallery4.jpg" alt="Heat Treatment">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
     <h2>Contact Us</h2>
     <p>Email: <a href="mailto:nadeem@brightndt.com">nadeem@brightndt.com</a></p>
-    <p>Phone: <a href="https://wa.me/917338074810" target="_blank">+91 73380 74810</a></p>
-    <p>Address: Door No. 717/3, RBC Villa, Kana, Iddya Village, Mangalore Taluk, Karnataka – 575014</p>
+    <p>Phone: <a href="https://wa.me/917338074810">+91 73380 74810</a></p>
+    <p>Address: RBC Villa, Kana, Iddya Village, Mangalore, Karnataka</p>
   </section>
 
-  <!-- WhatsApp Floating Button -->
-  <a href="https://wa.me/917338074810" target="_blank" class="whatsapp-float">
-    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Chat">
-  </a>
+  <!-- FAQ -->
+  <section class="section faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-box">
+      <h4>What services do you offer?</h4>
+      <p>We provide NDT, inspection, manpower, and heat treatment solutions.</p>
+      <h4>Are you available across India?</h4>
+      <p>Yes, we operate pan-India with mobile expert teams.</p>
+      <h4>Do you handle urgent shutdowns?</h4>
+      <p>Yes, our QA/QC teams are trained for fast deployment in emergencies.</p>
+    </div>
+  </section>
 
 </body>
 </html>
